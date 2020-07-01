@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Food Dashboard - HTML CSS JS</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-9">
+            <div class="container mx-auto mt-4">
+                <section class="main">
+                    <div class="main-top">
+                        <div class="logo">
+                            <span class="logo-img">=</span>
+                            <span class="logo-text">Chukwudi</span>
+                        </div>
+
+                        <div class="form-group has-search">
+                            <span class="fa fa-search form-control-feedback"></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </div>
+                    <div class="banner mt-5">
+                        <div class="banner-img">
+                            <img src="assets/banner-img.svg" alt="banner-image">
+                        </div>
+                        <div class="banner-text">
+                            <h3>$0 delivery for 30 days!</h3>
+                            <p>$0 delivery fee for orders over $10 for 30 days</p>
+                            <a href="#" class="banner-cta">Learn more &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        <div class="category-header mt-5">
+                            <h3>Restaurants</h3>
+                            <button class="category-btn"><span class="fa fa-clock"></span> Delivery: <span>Now</span> <i
+                                    class="fas fa-chevron-down"></i></button>
+                        </div>
+                        <!-- <div class="row mx-auto"> -->
+                        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                            <div class="category-slider carousel-inner col-md-11 mt-4">
+                                <div class="carousel-item active" data-interval="10000">
+                                    <div class="row mx-auto">
+                                        <div class="category">
+                                            <img src="assets/svg/roast-chicken-on-tray.svg" alt="">
+                                            <p>All</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/big-pizza-slice.svg" alt="">
+                                            <p>Pizza</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/hot-soup-in-a-bowl.svg" alt="">
+                                            <p>Asian</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/one-hamburguer.svg" alt="">
+                                            <p>Burgers</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/grilled-steak.svg" alt="">
+                                            <p>Barbecue</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/frozen-yogurt.svg" alt="">
+                                            <p>Dessert</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/spaghetti-plate.svg" alt="">
+                                            <p>Thai</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/sushi-and-chopsticks.svg" alt="">
+                                            <p>Sushi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <div class="row mx-auto">
+                                        <div class="category">
+                                            <img src="assets/svg/roast-chicken-on-tray.svg" alt="">
+                                            <p>All</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/big-pizza-slice.svg" alt="">
+                                            <p>Pizza</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/hot-soup-in-a-bowl.svg" alt="">
+                                            <p>Asian</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/one-hamburguer.svg" alt="">
+                                            <p>Burgers</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/grilled-steak.svg" alt="">
+                                            <p>Barbecue</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/frozen-yogurt.svg" alt="">
+                                            <p>Dessert</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/spaghetti-plate.svg" alt="">
+                                            <p>Thai</p>
+                                        </div>
+                                        <div class="category">
+                                            <img src="assets/svg/sushi-and-chopsticks.svg" alt="">
+                                            <p>Sushi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-next" href="#carouselExampleInterval" role="button"
+                                data-slide="next">
+                                <span class="fas fa-chevron-right more-btn" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div>
+                        <!-- </div> -->
+                    </div>
+
+                    <div class="foods row mt-5 mx-auto">
+
+                        <div class="food-card col-md-4">
+                            <div class="food-img">
+                                <img src="assets/foods/8.jpg" alt="">
+                                <div class="time">25-30 min</div>
+                            </div>
+                            <div class="food-body">
+                                <div class="food-title">Bagel Story</div>
+                                <div class="food-subtitle">
+                                    <div class="rate"><span>&#9734;</span>4.7</div>
+                                    <p class="food-desc">Deli</p>
+                                    <p class="food-desc">Bogels</p>
+                                    <p class="food-desc">$$</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-card col-md-4">
+                            <div class="food-img">
+                                <img src="assets/foods/6.jpg" alt="">
+                                <div class="time">25-30 min</div>
+                            </div>
+                            <div class="food-body">
+                                <div class="food-title">The Estaminet</div>
+                                <div class="food-subtitle">
+                                    <div class="rate"><span>&#9734;</span>4.7</div>
+                                    <p class="food-desc">Cofes</p>
+                                    <p class="food-desc">Crepies</p>
+                                    <p class="food-desc">$</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-card col-md-4">
+                            <div class="food-img">
+                                <img src="assets/foods/9.jpg" alt="">
+                                <div class="time">25-30 min</div>
+                            </div>
+                            <div class="food-body">
+                                <div class="food-title">Le Dakar Paris</div>
+                                <div class="food-subtitle">
+                                    <div class="rate"><span>&#9734;</span>4.7</div>
+                                    <p class="food-desc">Creperies</p>
+                                    <p class="food-desc">Sandwich</p>
+                                    <p class="food-desc">$$</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="side col-md-3">
+            <div class="container mx-auto mt-4">
+                <section class="side-menu">
+                    <div class="side-top">
+                        <div class="dropdown">
+                            <button class="fa fa-user-circle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Login</a>
+                                <a class="dropdown-item" href="#">Register</a>
+                            </div>
+                        </div>
+                        <div class="number">3</div>
+                    </div>
+
+                    <div class="orders">
+                        <h3 class="order-title">My Order</h3>
+
+                        <div class="order-card">
+                            <div class="order-address">
+                                <p>625 St Monks Ave</p>
+                                <a href="#">Edit</a>
+                            </div>
+                            <div class="order-time">
+                                <div class="time-text">
+                                    <span class="fa fa-clock"></span>
+                                    <p>35 min</p>
+                                </div>
+                                <a href="">Choose Time</a>
+                            </div>
+                        </div>
+
+                        <div class="order">
+                            <div class="order-item">
+                                <img class="item img" src="assets/foods/8.jpg" width="50" alt="">
+                                <p class="item qty"><span>1</span>X</p>
+                                <p class="item name">Beach BBQBurger</p>
+                                <p class="item price">$14.99</p>
+                            </div>
+                            <div class="order-item">
+                                <img class="item img" src="assets/foods/6.jpg" width="50" alt="">
+                                <p class="item qty"><span>1</span>X</p>
+                                <p class="item name">Beach BBQBurger</p>
+                                <p class="item price">$14.99</p>
+                            </div>
+                            <div class="order-item">
+                                <img class="item img" src="assets/foods/8.jpg" width="50" alt="">
+                                <p class="item qty"><span>1</span>X</p>
+                                <p class="item name">Beach BBQBurger</p>
+                                <p class="item price">$14.99</p>
+                            </div>
+
+                        </div>
+
+                        <div class="total">
+                            <p>Total:</p>
+                            <h4 class="total-price">$25.97</h4>
+                        </div>
+                        <hr>
+
+                        <div class="side-bottom">
+                            <div class="person">
+                                <p>Persons</p>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-secondary min-btn" type="button">-</button>
+                                    </div>
+                                    <input type="text" class="person-input" width="15" placeholder="" value="1"
+                                        readonly>
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary plus-btn" type="button">+</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="checkout">
+                                <button>Checkout &rarr;</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
